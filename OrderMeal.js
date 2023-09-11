@@ -7,24 +7,24 @@ const OrderMeal=()=>{
         <div className="container order-form">
             <div className="row main-form">
                 <div className="col col-md-7 left-form">
-                <h2 class="order-meal-head">Get your first meal for free!</h2>
-                <p class="order-meal-text">
+                <h2 className="order-meal-head">Get your first meal for free!</h2>
+                <p className="order-meal-text">
                 Healthy, tasty and hassle-free meals are waiting for you. Start
                 eating well today. You can cancel or pause anytime. And the
                 first meal is on us!
               </p>
 
-              <form class="sign-up-form">
+              <form className="sign-up-form">
                 <div>
-                  <label for="full-name">Full Name</label>
+                  <label htmlFor="full-name">Full Name</label>
                   <input id="full-name" type="text" placeholder="John Smith" name="full-name" required="" />
                 </div>
                 <div>
-                  <label for="email">Email address</label>
+                  <label htmlFor="email">Email address</label>
                   <input id="email" type="email" placeholder="me@example.com" name="email" required="" />
                 </div>
                 <div>
-                  <label for="select-where">Where did you hear from us?</label>
+                  <label htmlFor="select-where">Where did you hear from us?</label>
                   <select id="select-where" name="select-where" required="" >
                     <option value="">Please choose one option:</option>
                     <option value="friends">Friends and family</option>
@@ -34,7 +34,7 @@ const OrderMeal=()=>{
                     <option value="others">Others</option>
                   </select>
                 </div>
-                <button class="btn btn--form" >Sign up now</button>
+                <button className="btn btn--form" >Sign up now</button>
              </form>
                 </div>
 

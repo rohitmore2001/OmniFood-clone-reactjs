@@ -49,38 +49,38 @@ const OrderMeal=()=>{
                 <div className="footer-logo">
                     <img src="https://omnifood.dev/img/omnifood-logo.png" alt="" />
                 </div>
-            <ul class="social-links">
+            <ul className="social-links">
             <li>
-              <a class="footer-link" href="#"><FaInstagram/></a>
+              <a className="footer-link" href="#"><FaInstagram/></a>
             </li>
             <li>
-              <a class="footer-link" href="#"><SiFacebook/></a>
+              <a className="footer-link" href="#"><SiFacebook/></a>
             </li>
             <li>
-              <a class="footer-link" href="#"><GrTwitter/></a>
+              <a className="footer-link" href="#"><GrTwitter/></a>
             </li>
           </ul>
-          <p class="copyright">
+          <p className="copyright">
             Copyright © 2023 by Omnifood, Inc.
             All rights reserved.
           </p>
 
             </div>
-            <div class="address-colfooter-gap ">
-             <p class="footer-heading">Contact us</p>
-             <address class="contacts">
-            <p class="address">
+            <div className="address-colfooter-gap ">
+             <p className="footer-heading">Contact us</p>
+             <address className="contacts">
+            <p className="address">
               623 Harrison St., 2nd Floor, San Francisco, CA 94107
             </p>
             <p>
-              <a class="footer-link-1">415-201-6370</a><br/>
-              <a class="footer-link-1" >hello@omnifood.com</a>
+              <a className="footer-link-1">415-201-6370</a><br/>
+              <a className="footer-link-1" >hello@omnifood.com</a>
             </p>
           </address>
             </div>
 
-            <div class="account footer-gap">
-             <p class="footer-heading">Account</p>
+            <div className="account footer-gap">
+             <p className="footer-heading">Account</p>
               <ul>
                 <li>Create account</li>
                 <li>Sign in</li>
@@ -89,8 +89,8 @@ const OrderMeal=()=>{
               </ul>
         </div>
 
-        <div class="account footer-gap">
-             <p class="footer-heading">Company</p>
+        <div className="account footer-gap">
+             <p className="footer-heading">Company</p>
               <ul>
                 <li>About Omnifood</li>
                 <li>For Business</li>
@@ -99,8 +99,8 @@ const OrderMeal=()=>{
               </ul>
         </div>
 
-        <div class="account footer-gap">
-             <p class="footer-heading">Resources</p>
+        <div className="account footer-gap">
+             <p className="footer-heading">Resources</p>
               <ul>
                 <li>Recipe directory</li>
                 <li>Help center</li>

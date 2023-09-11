@@ -1,0 +1,87 @@
+.testimonials-row{
+    background-color: #fdf2e9;
+
+}
+
+.testimonials-head{
+    padding: 9.6rem;
+}
+ .testimonials-head-1{
+    color: #cf711f;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+ }
+ .card{
+    background-color: transparent;
+    border: none;  
+    margin: 0 10px; 
+ }
+ 
+ .testi-col{
+    display: flex;
+    margin: 0px 10px;
+ }
+ .testimonial-text{    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  margin-top: -2px;
+}
+
+ .testimonials-head-2{
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: #333
+ }
+.testimonial-1{
+    width: 6.4rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+    display: flex;
+    overflow: clip;
+
+}
+.testimonial-text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 1.6rem;
+}
+.testimonial-name {
+    font-size: 1.6rem;
+    color: #6f6f6f;
+    display: inline;
+}
+
+.testimonial-row-2{
+    margin-top: 25px;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+}
+.gallery-item img {
+    display: block;
+    width: 100%;
+    transition: 0.6s all ease-in-out;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+   
+}
+
+.gallery-item img:hover{
+    transform: scale(1.1);  
+}
+
+.gallery-col{
+    margin-top: 10%;
+}

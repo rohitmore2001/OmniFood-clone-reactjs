@@ -1,0 +1,157 @@
+
+
+.how-it-works {
+    padding: 9.6rem 0;
+}
+
+.heading-11 {
+    color: #cf711f;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+}
+
+.heading-2 {
+    font-size: 36px;
+    margin: 20px 0;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    color: black;
+}
+
+.step-1 {
+    font-size: 8.6rem;
+    font-weight: 600;
+    color: #ddd;
+    margin-bottom: 1.2rem;
+}
+
+.step-1-heading {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 3.2rem;
+    font-weight: 700;
+} 
+
+.step-1-para {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    word-spacing: 1px;
+}
+
+.step-1-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-1-img img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    position: absolute;
+}
+
+.back-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30%;
+}
+
+.back-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 80%;
+    position: absolute;
+}
+
+
+.step-2{
+    margin-top: 10%;
+}
+
+.step-3{
+    margin-top: 20%;
+}
+
+
+
+/* Responsive styles for tablets and smaller screens */
+@media (max-width: 768px) {
+    .how-it-works {
+        padding: 6rem 0;
+    }
+
+    .heading-2 {
+        font-size: 28px;
+        margin-bottom: 2rem;
+    }
+
+    .step-1 {
+        font-size: 6rem;
+    }
+
+    .step-1-heading {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .step-1-para {
+        font-size: 1.6rem;
+    }
+
+    .back-circle {
+        width: 200px;
+        height: 200px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20%;
+    }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 576px) {
+    .how-it-works {
+        padding: 4rem 0;
+    }
+
+    .heading-2 {
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+
+    .step-1 {
+        font-size: 4rem;
+    }
+
+    .step-1-heading {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .step-1-para {
+        font-size: 1.4rem;
+    }
+
+    .back-circle {
+        width: 150px;
+        height: 150px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+    }
+}
